@@ -1,0 +1,35 @@
+.countdown {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+.countdown-content {
+  position: relative;
+  width: 93px;
+  height: 77px;
+  border: solid 1px #d6d7da;
+  border-radius: 5px;
+  margin: auto 8px;
+  text-align: center;
+  display: flex;
+}
+.countdown-item {
+  margin: auto;
+}
+.countdown-item > span {
+  display: block;
+}
+.countdown-value {
+  color: #000;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 28px;
+}
+.countdown-title {
+  color: #909090;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: -1px;
+}
